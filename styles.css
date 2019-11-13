@@ -23,14 +23,6 @@ a:hover {
 
 /* Section Styles */
 
-.main-nav {
-  width: 100%;
-  background: black;
-  min-height: 30px;
-  padding: 10px;
-  position: fixed;
-  text-align: center;
-}
 .nav {
   display: flex;
   justify-content: space-around;
@@ -68,9 +60,9 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
-  border: 3px solid white;
-  transition: all .5s;
+  border-radius: 60%;
+  border: 5px solid pink;
+  transition: all 1s;
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
@@ -182,7 +174,7 @@ a.social:hover {
   .nav .name {
     display: block;
     margin-right: auto;
-    color: white;
+    color: gray;
   }
 
   main {
@@ -202,8 +194,10 @@ a.social:hover {
 }
 .card-title {
    text-align: center;
-   border: solid black 3px;
+   border: solid gray 5px;
    border-radius: 10px;
+   width: 100%;
+   margin: 20px auto;
 }
 
 .card-stitle {
@@ -216,12 +210,24 @@ a.social:hover {
     
 }
 
-.card-block{
+.card-block {
   margin: 40px;
   padding: 20px;
   width: 100%
+  
+
+}
+
+.main-image{
+  border: solid 2px black;
+  border-radius: 50%;
+}
+
+.section-etitle {
+  text-transform: uppercase;
   text-align: center;
-  background: #fff;
-  border-bottom: 4px solid #ccc;
-  border-radius: 6px;
+  border: solid gray 3px;
+  border-radius: 10px;
+  width: 240px;
+  margin: 100px auto;
 }
